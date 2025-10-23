@@ -1,0 +1,4 @@
+public static boolean isPalindrome(String s) {
+    String reversed = reverse(s);
+    return s.equalsIgnoreCase(reversed);
+}
